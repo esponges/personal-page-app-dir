@@ -41,11 +41,6 @@ export async function generateMetadata({ params, searchParams }: Props, parent: 
   };
 }
 
-// eslint-disable-next-line @typescript-eslint/require-await
-export async function generateStaticParams(foo: any) {
-  return {};
-}
-
 type CustomElementProps = {
   children: React.ReactNode;
   type: keyof HTMLElementTagNameMap;
