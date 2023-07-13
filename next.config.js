@@ -14,10 +14,10 @@ const config = {
   },
   reactStrictMode: true,
   swcMinify: true,
-  i18n: {
-    locales: ['en'],
-    defaultLocale: 'en',
-  },
+  // i18n: {
+  //   locales: ['en'],
+  //   defaultLocale: 'en',
+  // },
   webpack(config) {
     config.experiments = {
       ...config.experiments,
