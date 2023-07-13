@@ -85,6 +85,14 @@ export const Navbar = () => {
               >
                 Random Url
               </NavbarLink>
+              <NavbarLink
+                href='random/number-123'
+                textSize="md:text-xl lg:text-2xl text-lg"
+                className={NAV_LINK_HOVER_CLASS}
+                shouldDisplay={!isMobile}
+              >
+                Not Random
+              </NavbarLink>
             </div>
             <div className="hidden flex-row items-center gap-4 md:flex">
               <DarkModeToggler />
